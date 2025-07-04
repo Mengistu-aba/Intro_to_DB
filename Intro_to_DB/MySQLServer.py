@@ -7,7 +7,7 @@ try:
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='your_password'  # Replace with your MySQL root password
+        password='Aba71219@21'  
     )
     cursor = connection.cursor()
     cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
